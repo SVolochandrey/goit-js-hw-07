@@ -46,10 +46,10 @@ height="600"
 >`,
 {
 onShow: (instance) => {
-galleryContainer.addEventListener("keydown", onEscPress);
+document.addEventListener("keydown", onEscPress);
 },
 onClose: (instance) => {
-galleryContainer.removeEventListener("keydown", onEscPress);
+document.removeEventListener("keydown", onEscPress);
 },
 }
 );
